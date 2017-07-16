@@ -44,12 +44,12 @@
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",

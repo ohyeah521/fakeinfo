@@ -15,6 +15,8 @@ fun Any.getRandomTelNumber(): String {
     return first + second + thrid
 }
 
+
+
 fun getNum(start: Int, end: Int): Int {
     return (Math.random() * (end - start + 1) + start).toInt()
 }

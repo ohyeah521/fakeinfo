@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
@@ -72,16 +72,16 @@
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",

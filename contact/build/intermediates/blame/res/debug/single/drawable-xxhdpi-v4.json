@@ -184,16 +184,16 @@
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_account_white_24dp.png",
+        "source": "/Users/zohar/code/fakeinfo/contact/build/generated/res/pngs/debug/drawable-xxhdpi/ic_account_white_24dp.png"
+    },
+    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_account_white_24dp.png",
-        "source": "/Users/zohar/code/fakeinfo/contact/build/generated/res/pngs/debug/drawable-xxhdpi/ic_account_white_24dp.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",

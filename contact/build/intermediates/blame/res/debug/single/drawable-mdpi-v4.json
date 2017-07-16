@@ -44,12 +44,12 @@
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/notification_bg_normal.9.png"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_add_white_24dp.png",

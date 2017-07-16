@@ -6,6 +6,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.text.TextPaint;
 
+import com.sch.fakecontacts.ChineseName;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.threeten.bp.LocalDate;
@@ -13,6 +15,8 @@ import org.threeten.bp.YearMonth;
 import org.threeten.bp.format.DateTimeFormatter;
 
 import java.util.Random;
+
+import cn.binarywang.tools.ChineseCharUtils;
 
 public class RandomContactGenerator {
     private static final int AVATAR_SIZE_PX = 256;
@@ -47,7 +51,7 @@ public class RandomContactGenerator {
 
     public Contact generate(int id) {
         final Contact contact = new Contact();
-        final ContactName contactName = ContactName.create("Fake", "contact " + id, null);
+        final ContactName contactName = ContactName.create(ChineseName.getInstance().genFirstName(), ChineseCharUtils.genRandomLengthChineseChars(1, 2), null);
         contact.setName(contactName);
         contact.setAvatar(generateAvatar(AVATAR_SIZE_PX, AVATAR_SIZE_PX,
                 (contactName.firstName().charAt(0) + "" + contactName.lastName().charAt(0)).toUpperCase()));

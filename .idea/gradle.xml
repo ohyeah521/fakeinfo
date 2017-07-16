@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/calllog" />
             <option value="$PROJECT_DIR$/contact" />
+            <option value="$PROJECT_DIR$/fakeSms" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

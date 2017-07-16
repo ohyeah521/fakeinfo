@@ -8,12 +8,12 @@
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
-        "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/layout/design_navigation_item.xml"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/activity_groups.xml",
@@ -32,24 +32,24 @@
         "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
         "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/zohar/.android/build-cache/120193be56be9513cd15fc4f047f18e812d8f17b/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
         "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/dialog_input.xml",
-        "source": "/Users/zohar/code/fakeinfo/contact/src/main/res/layout/dialog_input.xml"
-    },
-    {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
         "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/dialog_input.xml",
+        "source": "/Users/zohar/code/fakeinfo/contact/src/main/res/layout/dialog_input.xml"
     },
     {
         "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/release/layout/notification_action.xml",

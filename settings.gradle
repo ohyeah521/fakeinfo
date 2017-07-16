@@ -1,1 +1,1 @@
-include ':app', ':contact', ':calllog'
+include ':app', ':contact', ':calllog', ':fakeSms'
