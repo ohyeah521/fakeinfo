@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/zohar/.android/build-cache/688a34e6ef3ec5cad4d4bd9680bab0d3e162736d/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

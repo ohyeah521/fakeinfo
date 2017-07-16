@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fake Contacts</string>
+    <string name="activity_groups">Groups</string>
+
+    <string name="dialog_create_group">Create group</string>
+    <string name="message_please_wait">Please wait…</string>
+    <string name="message_done">Done</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="main_action_open_contacts">Open Contacts</string>
+    <string name="main_action_delete_generated_contacts">Delete generated contacts</string>
+
+    <string name="main_button_generate">Generate</string>
+    <string name="main_button_select_group">Select</string>
+    <string name="main_label_count">Number of contacts:</string>
+    <string name="main_label_group">Group:</string>
+    <string name="main_switch_with_phones">With phones</string>
+    <string name="main_switch_with_emails">With emails</string>
+    <string name="main_switch_with_addresses">With addresses</string>
+    <string name="main_switch_with_avatars">With avatars</string>
+    <string name="main_switch_with_events">With events</string>
+    <string name="main_switch_overwrite_existing">Overwrite existing generated contacts</string>
+
+    <string name="groups_action_confirm">Confirm</string>
+    <string name="groups_label_no_groups">No groups</string>
+
+</resources>

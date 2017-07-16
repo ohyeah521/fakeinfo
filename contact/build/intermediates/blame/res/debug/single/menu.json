@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/menu/groups.xml",
+        "source": "/Users/zohar/code/fakeinfo/contact/src/main/res/menu/groups.xml"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/zohar/code/fakeinfo/contact/src/main/res/menu/main.xml"
+    }
+]

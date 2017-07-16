@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore regexp="Try-with-resources requires API level 19"/>
+    </issue>
+    <issue id="RtlHardcoded" severity="ignore" />
+</lint>

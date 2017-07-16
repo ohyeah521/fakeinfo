@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/item_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/main_label_count"
+                android:textAppearance="@style/Text" />
+
+            <EditText
+                android:id="@+id/edit_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:gravity="right"
+                android:inputType="number"
+                android:text="100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/item_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/main_label_group"
+                android:textAppearance="@style/Text" />
+
+            <Button
+                android:id="@+id/button_select_group"
+                style="?borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:text="@string/main_button_select_group"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_with_phones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_with_phones"
+            android:textAppearance="@style/Text" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_with_emails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_with_emails"
+            android:textAppearance="@style/Text" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_with_addresses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_with_addresses"
+            android:textAppearance="@style/Text" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_with_avatars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_with_avatars"
+            android:textAppearance="@style/Text" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_with_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_with_events"
+            android:textAppearance="@style/Text" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_overwrite_existing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="@dimen/item_height"
+            android:text="@string/main_switch_overwrite_existing"
+            android:textAppearance="@style/Text" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:text="@string/main_button_generate"
+        android:textColor="#fff" />
+
+</RelativeLayout>

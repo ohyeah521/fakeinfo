@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_add_white_24dp.png",
+        "source": "/Users/zohar/code/fakeinfo/contact/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_confirm_white_24dp.png",
+        "source": "/Users/zohar/code/fakeinfo/contact/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_confirm_white_24dp.png"
+    },
+    {
+        "merged": "/Users/zohar/code/fakeinfo/contact/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_account_white_24dp.png",
+        "source": "/Users/zohar/code/fakeinfo/contact/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_account_white_24dp.png"
+    }
+]

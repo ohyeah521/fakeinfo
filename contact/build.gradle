@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
+    compile "com.android.support:recyclerview-v7:$rootProject.ext.supportLibraryVersion"
+    compile "com.android.support:design:$rootProject.ext.supportLibraryVersion"
+
+    compile "com.github.hotchemi:permissionsdispatcher:$rootProject.ext.permissionsDispatcherVersion"
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:$rootProject.ext.permissionsDispatcherVersion"
+
+    provided "com.google.auto.value:auto-value:$rootProject.ext.autoValueVersion"
+    annotationProcessor "com.google.auto.value:auto-value:$rootProject.ext.autoValueVersion"
+
+    compile "com.google.guava:guava:$rootProject.ext.guavaVersion"
+    compile "org.apache.commons:commons-lang3:3.4"
+
+    compile "com.jakewharton.threetenabp:threetenabp:1.0.4"
+}
