@@ -17,6 +17,7 @@ import org.threeten.bp.format.DateTimeFormatter;
 import java.util.Random;
 
 import cn.binarywang.tools.ChineseCharUtils;
+import cn.binarywang.tools.generator.ChineseMobileNumberGenerator;
 
 public class RandomContactGenerator {
     private static final int AVATAR_SIZE_PX = 256;
@@ -70,7 +71,7 @@ public class RandomContactGenerator {
         if (maxPhoneNumbers != 0) {
             final int numPhoneNumbers = randomValueBetween(minPhoneNumbers, maxPhoneNumbers);
             for (int i = 0; i < numPhoneNumbers; i++) {
-                contact.addPhoneNumber(randomElementOf(PhoneType.values()), generatePhoneNumber());
+                contact.addPhoneNumber(PhoneType.Mobile, generatePhoneNumber());
             }
         }
         contact.addPostalAddress(randomElementOf(PostalAddressType.values()), generatePostalAddress());
@@ -78,7 +79,7 @@ public class RandomContactGenerator {
     }
 
     private String generatePhoneNumber() {
-        return "+79" + RandomStringUtils.randomNumeric(9);
+        return ChineseMobileNumberGenerator.getInstance().generate();
     }
 
     private String generateEmail() {

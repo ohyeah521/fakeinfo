@@ -51,11 +51,11 @@ class MainActivity : AppCompatActivity() {
         val builder = GenerationOptions.Builder()
                 .setContactCount(et_contact_count.text.toString().toInt())
                 .setOverwriteExisting(true)
-        builder.withEmails()
+//        builder.withEmails()
         builder.withPhones()
-        builder.withAddresses()
-        builder.withAvatars()
-        builder.withEvents()
+//        builder.withAddresses()
+//        builder.withAvatars()
+//        builder.withEvents()
         GenerateContactsTask(this, builder.build()).execute()
     }
 
