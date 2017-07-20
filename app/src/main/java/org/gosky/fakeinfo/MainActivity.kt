@@ -13,6 +13,7 @@ import android.provider.CallLog
 import android.provider.Telephony
 import android.support.v4.app.FragmentActivity
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.widget.Toast
 import com.sch.fakecontacts.model.generator.ContactGenerator
 import com.sch.fakecontacts.model.generator.GenerationOptions
@@ -23,6 +24,8 @@ import java.text.ParseException
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    val TAG = "MainActivity"
+
     val callType = arrayOf(CallLog.Calls.INCOMING_TYPE,
             CallLog.Calls.OUTGOING_TYPE, CallLog.Calls.MISSED_TYPE
     )
@@ -59,12 +62,17 @@ class MainActivity : AppCompatActivity() {
         GenerateContactsTask(this, builder.build()).execute()
     }
 
-    fun generateCallLogs() {
+    private var s = ""
+
+    fun generateCallLogs(isReply: Boolean = false) {
         val cv = ContentValues()
-        cv.put(CallLog.Calls.NUMBER, getRandomContact())
+        if (!isReply)
+            s = getRandomContact()!!
+        print("\n isreply " + isReply + "  tel: " + s)
+        cv.put(CallLog.Calls.NUMBER, s)
         cv.put(CallLog.Calls.DURATION, Random().nextInt(60))
         cv.put(CallLog.Calls.NEW, 1)
-        cv.put(CallLog.Calls.DATE, System.currentTimeMillis() - Random().nextInt(1000 * 1000))
+        cv.put(CallLog.Calls.DATE, System.currentTimeMillis() - Random().nextInt(1000 * 60 * 60 * 24 * 15))
         cv.put(CallLog.Calls.TYPE, callType[Random().nextInt(callType.size)])
         cv.put(CallLog.Calls.CACHED_NAME, "")
         cv.put(CallLog.Calls.CACHED_NUMBER_TYPE, 0)
@@ -83,12 +91,13 @@ class MainActivity : AppCompatActivity() {
         val values = ContentValues()
 
         try {
-            values.put("date", System.currentTimeMillis() - Random().nextInt(1000 * 1000))
+            values.put("date", System.currentTimeMillis() - Random().nextInt(1000 * 60 * 60 * 24 * 15))
             values.put("address", getRandomContact())
             values.put("body", GeneratorSmsContent.random())
-            values.put("type", "2")
+            val i = Random().nextInt(2) + 1
+            values.put("type", i.toString())
             values.put("read", "1")//"1"means has read ,1表示已读
-
+            Log.d(TAG, ": " + values);
             contentResolver.insert(Uri.parse("content://sms/inbox"), values)
 //            Toast.makeText(this@MainActivity, "短信插入成功，部分手机的收件箱有延迟，请等候", Toast.LENGTH_SHORT).show()
 
@@ -138,7 +147,12 @@ class MainActivity : AppCompatActivity() {
         override fun doInBackground(vararg params: Void): Void? {
             ContactGenerator(context).generate(options)
             for (i in 1..et_call_logs_count.text.toString().toInt()) {
-                generateCallLogs()
+                if (i % 5 == 1) {
+                    for (a in 1..Random().nextInt(4) + 1)
+                        generateCallLogs(true)
+                } else {
+                    generateCallLogs()
+                }
             }
             for (i in 1..et_sms_count.text.toString().toInt()) {
                 generateSms()
